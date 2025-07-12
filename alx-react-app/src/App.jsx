@@ -9,9 +9,9 @@ function App() {
       <Header />
       <MainContent />
       <UserProfile
-        name="Alice Johnson"
+        name="Alice"
         age="25"
-        bio="Loves hiking, photography, and building web apps with React."
+        bio="Loves hiking and photography"
       />
       <Footer />
     </div>
