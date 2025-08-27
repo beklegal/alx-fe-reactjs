@@ -1,7 +1,7 @@
 import UserInfo from './UserInfo';
 
 function ProfilePage() {
-  return <UserInfo />;
+  return <UserInfo />; // removed props
 }
 
 export default ProfilePage;
