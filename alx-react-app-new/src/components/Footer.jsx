@@ -1,16 +1,11 @@
-﻿export default function Footer() {
+﻿import React from "react";
+
+function Footer() {
   return (
-    <footer
-      style={{
-        backgroundColor: '#111827',
-        color: 'white',
-        textAlign: 'center',
-        padding: '12px',
-        borderRadius: '10px',
-        marginTop: '12px'
-      }}
-    >
-      <p style={{ margin: 0 }}>© {new Date().getFullYear()} My Cities App</p>
+    <footer style={{ backgroundColor: '#222', color: 'white', textAlign: 'center', padding: '10px', marginTop: '10px' }}>
+      <p>&copy; 2025 My React App. All rights reserved.</p>
     </footer>
   );
 }
+
+export default Footer;

@@ -1,28 +1,13 @@
-﻿export default function MainContent() {
-  const wrapperStyle = {
-    padding: '16px',
-    backgroundColor: '#eef2ff',
-    borderRadius: '10px',
-    margin: '12px 0'
-  };
+﻿import React from "react";
 
-  const listStyle = {
-    listStyleType: 'square',
-    paddingLeft: '20px',
-    margin: 0
-  };
-
-  const itemStyle = { margin: '6px 0', fontWeight: 500 };
-
+function MainContent() {
   return (
-    <main style={wrapperStyle}>
-      <h2 style={{ marginTop: 0, color: '#1f2937' }}>Top Cities</h2>
-      <ul style={listStyle}>
-        <li style={itemStyle}>Accra</li>
-        <li style={itemStyle}>Nairobi</li>
-        <li style={itemStyle}>Cape Town</li>
-        <li style={itemStyle}>Lagos</li>
-      </ul>
+    <main style={{ backgroundColor: '#f9f9f9', padding: '10px', margin: '10px' }}>
+      <p style={{ fontSize: '16px', color: '#333' }}>
+        Welcome to the Main Content section. Here we share exciting information!
+      </p>
     </main>
   );
 }
+
+export default MainContent;
