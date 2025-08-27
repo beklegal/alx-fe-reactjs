@@ -1,22 +1,21 @@
-﻿import Header from './components/Header';
+import Header from './components/Header';
 import MainContent from './components/MainContent';
-import UserProfile from './components/UserProfile';
 import Footer from './components/Footer';
+import UserProfile from './components/UserProfile';
 
-export default function App() {
+function App() {
   return (
-    <div style={{ maxWidth: 800, margin: '0 auto', padding: '16px' }}>
+    <div className="App">
       <Header />
-
-      {/* Example User */}
-      <UserProfile
-        name='Jane Doe'
-        age={28}
-        bio='A travel enthusiast who loves discovering new cities, cultures, and cuisines.'
-      />
-
       <MainContent />
+      <UserProfile
+        name="Alice"
+        age="25"
+        bio="Loves hiking and photography"
+      />
       <Footer />
     </div>
   );
 }
+
+export default App;
