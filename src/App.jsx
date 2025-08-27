@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-import ProfilePage from './components/ProfilePage';
+import ProfilePage from './ProfilePage';
 import UserContext from './UserContext';
 
 function App() {
@@ -9,25 +8,6 @@ function App() {
     <UserContext.Provider value={userData}>
       <ProfilePage />
     </UserContext.Provider>
-=======
-import Header from './components/Header';
-import MainContent from './components/MainContent';
-import Footer from './components/Footer';
-import UserProfile from './components/UserProfile';
-
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <MainContent />
-      <UserProfile
-        name="Alice"
-        age="25"
-        bio="Loves hiking and photography"
-      />
-      <Footer />
-    </div>
->>>>>>> 6726bfab91cf95c40bffd6652933589a695b6b1b
   );
 }
 
